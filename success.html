@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+
+{% block title %}
+    
+    Success! 😊
+
+{% endblock %}
+
+{% block body %}
+    <h1>Success! 😊</h1>
+    
+    <h2> Hello {{ flight.name }}! </h2> You have successfully booked a flight &#9992;
+    <p>from <b>{{ flight.origin }}</b> to  <b>{{ flight.destination }}</b></p>
+    <p>Bon Voyage!!!</p>
+    
+    <h1 class ="wave">👋</h1>
+{% endblock %}
